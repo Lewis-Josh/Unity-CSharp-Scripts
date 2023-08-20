@@ -5,7 +5,7 @@ using UnityEngine;
 /* Author: Joshua Lewis
 *  Date: 8/20/2023
 *
-*  This Script takes the AIFOV-Concept and applys it to Raycasts.
+*  This Script takes the AIFOV-Concept and applies it to Raycasts.
 *  Using Random Vectors within a range it generates Raycasts originating from a Camera Object.
 *  It stores each Raycast in a list depending on if the Raycast detected collision.
 *  For Loops itterate through both lists and assign a Gizmo.DrawLine based on each vector in each list.
