@@ -1,7 +1,5 @@
 This Script is designed for testing Random Raycasts in unity.
 The original design is for developing a field of view for artificial intelligence, but has other uses and possibilities.
-It creates 3000 random Vector3 and adds them to 3 seperate lists (1000 each).
-It then itterates through each list and assigns a Gizmo to each vector to make them visible in the editor.
-The lists auto populate and auto clear within the editor with no effort from the developer.
-The end result is a randomly generated "Cone" that represents the field of view of the object.
-The PNG displays this "Cone" from different angles in the Scene view.
+The end result is a randomly generated "Cone" of Vectors that represents the field of view of the object.
+The AIFOV.PNG displays this "Cone" from different angles in the Scene view. These are not raycasts but Gizmos displaying the random vectors stored in a list.
+The AIFOVCollison.PNG displays the FOV using Raycasts and displays a Raycast Collison in red, and non collision Raycasts in Green.
