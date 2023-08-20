@@ -61,7 +61,7 @@ public class AIFOV : MonoBehaviour
                 // If Collision with player, Pause Game, Target is sighted.
                 else if (hit.collider.CompareTag("Player"))
                 {
-                    //Collor Raycast that collided with player Blue.
+                    //Color Raycast that collided with player Blue.
                     Debug.DrawRay(Cam.transform.position, hit.point, Color.blue, 60);
                     Time.timeScale = 0f;
                     targetSighted = true;
