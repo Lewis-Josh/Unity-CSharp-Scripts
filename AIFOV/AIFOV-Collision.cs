@@ -2,6 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* Author: Joshua Lewis
+*  Date: 8/20/2023
+*
+*  This Script takes the AIFOV-Concept and applys it to Raycasts.
+*  Using Random Vectors within a range it generates Raycasts originating from a Camera Object.
+*  It stores each Raycast in a list depending on if the Raycast detected collision.
+*  For Loops itterate through both lists and assign a Gizmo.DrawLine based on each vector in each list.
+*  Green Vectors are Raycasts that did not collide before reaching maximum magnitude.
+*  Red Vectors are Raycasts that detected Collision before reaching maximum magnitude.
+*
+*/
 public class AIFOV : MonoBehaviour
 {
     // Create Camera object.
