@@ -1,4 +1,4 @@
-This Script is designed for testing Random Raycasts in unity.
+These Scripts are designed for testing Random Raycasts in unity.
 The original design is for developing a field of view for artificial intelligence, but has other uses and possibilities.
 The end result is a randomly generated "Cone" of Vectors that represents the field of view of the object.
 The AIFOV.PNG displays this "Cone" from different angles in the Scene view. These are not raycasts but Gizmos displaying the random vectors stored in a list.
